@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Launch InsertionSort",
             "request": "launch",
+            "mainClass": "Sorting.InsertionSort",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "Sorting.QuickSort",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch KthSmallestElement",
+            "request": "launch",
+            "mainClass": "Sorting.KthSmallestElement",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
             "mainClass": "InsertionSort",
             "projectName": "ProjectTest_bbbd1173"
         },

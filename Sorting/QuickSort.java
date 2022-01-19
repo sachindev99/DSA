@@ -30,11 +30,15 @@ public class QuickSort
 
            if(i<j)
            {
-               swap(arr,arr[i],arr[j]);
+            int temp=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
            }
        }
 
-       swap(arr,arr[j],arr[low]);
+       int temp=arr[low];
+       arr[low]=arr[j];
+       arr[j]=temp;
 
        return j;
    }
@@ -49,11 +53,6 @@ public class QuickSort
        }
    }
 
-private static void swap(int[] arr,int i, int j) 
-{
-    int temp=i;
-    i=j;
-    j=temp;
-} 
+
 }
 
