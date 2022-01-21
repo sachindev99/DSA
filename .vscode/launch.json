@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SegregrateEvenOdd",
+            "request": "launch",
+            "mainClass": "Sorting.SegregrateEvenOdd",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch SegregationBetterSol",
             "request": "launch",
             "mainClass": "Sorting.SegregationBetterSol",

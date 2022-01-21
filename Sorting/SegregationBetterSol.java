@@ -1,5 +1,5 @@
 package Sorting;
-
+// Segereation of Postive and Negative number
 public class SegregationBetterSol {
     public static void main(String[] args) {
         int[] arr={15,-3,-2,18};
@@ -49,7 +49,7 @@ public class SegregationBetterSol {
         arr[low]=arr[j];
         arr[j]=temp;
 
-                return j;
+        return j;
 
 
     }
