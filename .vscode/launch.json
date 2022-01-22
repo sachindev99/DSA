@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SortThreeTypeArray",
+            "request": "launch",
+            "mainClass": "Sorting.SortThreeTypeArray",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch hello",
             "request": "launch",
             "mainClass": "Sorting.hello",
