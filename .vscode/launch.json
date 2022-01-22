@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch hello",
+            "request": "launch",
+            "mainClass": "Sorting.hello",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch SortBinaryArray",
             "request": "launch",
             "mainClass": "Sorting.SortBinaryArray",
