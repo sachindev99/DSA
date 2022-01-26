@@ -32,7 +32,8 @@ public class MergeIntervals implements Comparable<MergeIntervals> {
             else
             {
                 res++;
-                arr[res]=arr[i];
+                arr[res].start=arr[i].start;
+                arr[res].end=arr[i].end;
             }
         }
 
