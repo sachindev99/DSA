@@ -14,6 +14,12 @@ public class MeetingMaxGuest {
 
     }
 
+    // the idea is count the number of guest
+    // we comapre the arrival time with the departure time
+    // if the arrival time of first guest is smaller than the departure time of any guest , we increment the count
+    // and we move to the second arrival time and compare it with the same departure time, if it is still greater than the first arrival time then we increment the count
+    // else we decrement the count and move on to the next departure time and do the same thing
+
     static int maxGuest(int[] arr, int[] dep,int n)
     {
         Arrays.sort(arr);
