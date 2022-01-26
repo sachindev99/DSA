@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MergeIntervals",
+            "request": "launch",
+            "mainClass": "Sorting.MergeIntervals",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch MinDiffBetterSol",
             "request": "launch",
             "mainClass": "Sorting.MinDiffBetterSol",
