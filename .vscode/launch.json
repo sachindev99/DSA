@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MeetingMaxGuest",
+            "request": "launch",
+            "mainClass": "Sorting.MeetingMaxGuest",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch MergeIntervals",
             "request": "launch",
             "mainClass": "Sorting.MergeIntervals",
