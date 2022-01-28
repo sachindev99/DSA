@@ -16,7 +16,7 @@ public class CycleSort {
         for(int i=0;i<n-1;i++)
         {
             int currItem=arr[i];
-            int pos=0;
+            int pos=i;
             for(int j=i+1;j<n;j++)
             {
                 if(arr[j]<currItem)
@@ -25,10 +25,24 @@ public class CycleSort {
                 }
             }
 
-
-                int temp=arr[pos];
-                arr[pos]=arr[i];
-                arr[i]=temp;
+                int temp=currItem;
+                currItem=arr[pos];
+                arr[pos]=temp;
+    
+            while(pos!=i)
+            {
+                pos=i;
+                for(int j=i+1;j<n;j++)
+                {
+                    if(arr[j]<currItem)
+                    {
+                        pos++;
+                    }
+                }
+                temp=currItem;
+                currItem=arr[pos];
+                arr[pos]=temp;
+            }
             
         }
     }
