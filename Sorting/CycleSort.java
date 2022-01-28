@@ -29,6 +29,10 @@ public class CycleSort {
                 currItem=arr[pos];
                 arr[pos]=temp;
     
+            //for ex: while 10 is not at position 0
+            //for 10, pos should be 0 
+            //compiler will not enter the while loop if currItem is at its correct position
+            //when 20 is at position 1, at that time pos would be 1 too (because pos=i)    
             while(pos!=i)
             {
                 pos=i;
