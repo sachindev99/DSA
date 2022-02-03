@@ -46,7 +46,7 @@ public class KthSmallestElement
         }
 
         int temp=arr[low];
-        arr[low]=arr[j];
+        arr[low]=arr[j]; 
         arr[j]=temp;
 
         return j;

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CountSort",
+            "request": "launch",
+            "mainClass": "Sorting.CountSort",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch CycleSort",
             "request": "launch",
             "mainClass": "Sorting.CycleSort",
