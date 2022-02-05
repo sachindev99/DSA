@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BucketSort",
+            "request": "launch",
+            "mainClass": "Sorting.BucketSort",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch RadixSort",
+            "request": "launch",
+            "mainClass": "Sorting.RadixSort",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch CountSort",
             "request": "launch",
             "mainClass": "Sorting.CountSort",
