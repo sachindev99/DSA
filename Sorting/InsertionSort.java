@@ -12,7 +12,7 @@ public class InsertionSort {
 
     static void insertSort(int[] arr,int n)
     {
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             //store the current element in a key variable
             int key=arr[i];
             int j=i-1;
