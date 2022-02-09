@@ -1,4 +1,6 @@
 package Sorting;
+// the idea is to find out the minimum element and put it at first position
+
 public class SelectionSort 
 {
     public static void main(String[] args) {
