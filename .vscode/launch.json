@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MergeFunction",
+            "request": "launch",
+            "mainClass": "Sorting.MergeFunction",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch MergeTwoSortedArray",
             "request": "launch",
             "mainClass": "Sorting.MergeTwoSortedArray",
