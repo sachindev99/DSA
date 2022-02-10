@@ -1,5 +1,7 @@
 package Sorting;
 
+//consider we have two subsorted array 10,20,40 and 20,30
+//we need to have a complete sorted array 10,20,20,30,40
 public class MergeFunction {
     
     public static void main(String[] args) {
