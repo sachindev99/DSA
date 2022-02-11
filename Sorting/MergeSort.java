@@ -15,22 +15,22 @@ public class MergeSort {
 
     static void mergeSort(int[] arr, int low, int high)
     {
-        int temp[]= new int[arr.length];
+        
         if(low<high)
         {
             int mid=(low+high)/2;
             mergeSort(arr, low, mid);
             mergeSort(arr, mid+1, high);
-            merge(arr,low,mid,high,temp);
+            merge(arr,low,mid,high);
         }
     }
 
-    static void merge(int[] arr, int low, int mid, int high,int[] temp) {
+    static void merge(int[] arr, int low, int mid, int high) {
         int i=low;
         int j= mid+1;
         int k=low;
-        
-
+        int temp[]= new int[arr.length];
+    
         while(i<=mid&&j<=high)
         {
             if(arr[i]<arr[j])
@@ -69,7 +69,8 @@ public class MergeSort {
             }
         }
 
-        for (k = low; k<=high; k++) {
+        for (k = low; k<=high; k++) 
+        {
             arr[k]=temp[k];
         }
 
