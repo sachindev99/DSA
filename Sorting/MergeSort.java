@@ -48,26 +48,21 @@ public class MergeSort {
             }
         }
 
-        if(i>mid)
+      
+        while(j<=high)
         {
-            while(j<=high)
-            {
-                temp[k]=arr[j];
-                k++;
-                j++;
-            }
-          
+            temp[k]=arr[j];
+            k++;
+            j++;
         }
-
-        else
+   
+        while(i<=mid)
         {
-            while(i<=mid)
-            {
-                temp[k]=arr[i];
-                i++;
-                k++;
-            }
+            temp[k]=arr[i];
+            i++;
+            k++;
         }
+        
 
         for (k = low; k<=high; k++) 
         {
