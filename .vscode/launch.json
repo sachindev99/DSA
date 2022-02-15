@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch UnionOfTwoArrays",
+            "request": "launch",
+            "mainClass": "Sorting.UnionOfTwoArrays",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch IntersectionOfTwoArrays",
             "request": "launch",
             "mainClass": "Sorting.IntersectionOfTwoArrays",
