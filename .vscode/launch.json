@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CountInversion",
+            "request": "launch",
+            "mainClass": "Sorting.CountInversion",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch UnionOfTwoArrays",
             "request": "launch",
             "mainClass": "Sorting.UnionOfTwoArrays",

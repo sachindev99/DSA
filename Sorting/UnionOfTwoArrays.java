@@ -7,7 +7,6 @@ public class UnionOfTwoArrays {
         int n=arr.length;
         int m =brr.length;
         unionOfArrays(arr, brr, n, m);
-
     }
 
     static void unionOfArrays(int[] arr,int[] brr,int n,int m)
@@ -31,8 +30,8 @@ public class UnionOfTwoArrays {
 
             if(arr[i]<brr[j])
             {
-                    System.out.print(arr[i]+" ");
-                    i++;
+                System.out.print(arr[i]+" ");
+                i++;
             }
 
             else if(arr[i]==brr[j])
@@ -47,7 +46,7 @@ public class UnionOfTwoArrays {
                 System.out.print(brr[j]+" ");
                 j++;
             }
-         
+        
         }
 
         while(i<n)
@@ -75,7 +74,5 @@ public class UnionOfTwoArrays {
                 j++;
             }
         }
-
-
     }
 }
