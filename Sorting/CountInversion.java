@@ -2,7 +2,7 @@ package Sorting;
 
 public class CountInversion {
     public static void main(String[] args) {
-        int[] arr={2,4,1,3,5};
+        int[] arr={5,4,3,2,1};
         int n=arr.length;
 
         System.out.println(count(arr, 0, n-1));
@@ -43,7 +43,6 @@ public class CountInversion {
             {
                 temp[k]=arr[j];
                 res=res+(mid+1-i);
-               
                 k++;
                 j++;
 
