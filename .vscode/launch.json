@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch QuickSortBestCase",
+            "request": "launch",
+            "mainClass": "Sorting.QuickSortBestCase",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch CountInversion",
             "request": "launch",
             "mainClass": "Sorting.CountInversion",
