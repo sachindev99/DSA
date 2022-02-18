@@ -13,6 +13,8 @@ public class QuickSortBestCase {
     }
    static int partition(int[] arr,int low,int high)
    {
+       // make pivot the middle element
+       // best case is when array is divided equally each time
        int pivot=arr[(low+high)/2];
        int i=low;
        int j=high;
