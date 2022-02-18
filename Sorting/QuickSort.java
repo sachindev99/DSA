@@ -2,7 +2,7 @@ package Sorting;
 public class QuickSort
 {
     public static void main(String[] args) {
-        int[] arr={5,3,8,4,2,7,1,10};
+        int[] arr={4,6,2,5,7,9,1,3};
         quickSort(arr, 0, arr.length-1);
 
         for(int i:arr)
@@ -18,12 +18,12 @@ public class QuickSort
 
        while(i<j)
        {
-           while(arr[i]<=pivot&&i<=j)
+           while(arr[i]<=pivot)
            {
                i++;
            }
 
-           while(arr[j]>pivot&&i<=j)
+           while(arr[j]>pivot)
            {
                j--;
            }
