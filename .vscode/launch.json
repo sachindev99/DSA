@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SegregateBinaryArray",
+            "request": "launch",
+            "mainClass": "Sorting.SegregateBinaryArray",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch QuickSortBestCase",
             "request": "launch",
             "mainClass": "Sorting.QuickSortBestCase",
