@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DutchFlagAlgo",
+            "request": "launch",
+            "mainClass": "Sorting.DutchFlagAlgo",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch SegregateBinaryArray",
             "request": "launch",
             "mainClass": "Sorting.SegregateBinaryArray",

@@ -3,7 +3,7 @@ package Sorting;
 // how to make worst time complexity(O(n2)) to best time complexity(O(nlogn)) when the array is sorted
 public class QuickSortBestCase {
     public static void main(String[] args) {
-        int[] arr={1,2,3,5,7};
+        int[] arr={0,1,2,1,1,2};
         quickSort(arr, 0, arr.length-1);
 
         for(int i:arr)
@@ -14,14 +14,14 @@ public class QuickSortBestCase {
    static int partition(int[] arr,int low,int high)
    {
        // make pivot the middle element
-       // best case is when array is divided equally each time
+       // best case is when array is divided equally each
        int pivot=arr[(low+high)/2];
        int i=low;
        int j=high;
 
        while(i<j)
        {
-           while(arr[i]<=pivot)
+           while(arr[i]<=pivot&&i<j)
            {
                i++;
            }
