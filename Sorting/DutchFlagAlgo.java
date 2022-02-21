@@ -21,7 +21,6 @@ public class DutchFlagAlgo {
         {
             if(arr[mid]==0)
             {
-               
                 int temp=arr[low];
                 arr[low]=arr[mid];
                 arr[mid]=temp;
@@ -36,7 +35,6 @@ public class DutchFlagAlgo {
 
             else
             {
-                
                 int temp=arr[mid];
                 arr[mid]=arr[high];
                 arr[high]=temp;
