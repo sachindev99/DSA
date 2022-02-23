@@ -46,6 +46,7 @@ public class MergeIntervals implements Comparable<MergeIntervals> {
     {
         MergeIntervals arr[]= {new MergeIntervals(5, 10), new MergeIntervals(3, 15), new MergeIntervals(18, 30), new MergeIntervals(2, 7)};
         int n =arr.length;
+        System.out.println(n);
         mergeIntIn(arr, n);
     }
 
