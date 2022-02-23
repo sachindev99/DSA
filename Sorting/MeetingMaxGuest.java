@@ -42,7 +42,7 @@ public class MeetingMaxGuest {
                 curr--;
                 j++;
             }
-
+            //System.out.println(curr);
             res=Math.max(res, curr);
 
         }

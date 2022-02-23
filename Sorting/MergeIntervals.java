@@ -16,6 +16,13 @@ public class MergeIntervals implements Comparable<MergeIntervals> {
        return this.start-m.start;
     }
 
+    public static void main(String[] args) 
+    {
+        MergeIntervals arr[]= {new MergeIntervals(5, 10), new MergeIntervals(3, 15), new MergeIntervals(18, 30), new MergeIntervals(2, 7)};
+        int n =arr.length;
+        mergeIntIn(arr, n);
+    }
+
     static void mergeIntIn(MergeIntervals[] arr,int n)
     {
         Arrays.sort(arr);
@@ -42,13 +49,5 @@ public class MergeIntervals implements Comparable<MergeIntervals> {
            System.out.print("["+arr[i].start+", "+arr[i].end+"]"); 
         }
     }
-    public static void main(String[] args) 
-    {
-        MergeIntervals arr[]= {new MergeIntervals(5, 10), new MergeIntervals(3, 15), new MergeIntervals(18, 30), new MergeIntervals(2, 7)};
-        int n =arr.length;
-        System.out.println(n);
-        mergeIntIn(arr, n);
-    }
 
-   
 }
