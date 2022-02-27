@@ -68,6 +68,7 @@ public class CountInversion {
         {
             arr[k]=temp[k];
         }
+       // System.out.println(res);
         return res;
 
     }
