@@ -2,8 +2,8 @@ package Sorting;
 
 public class UnionOfTwoArrays {
     public static void main(String[] args) {
-        int[] arr={2,3,3,3,3,3,4,4};
-        int[] brr={3,3,4,4};
+        int[] arr={2,2,2,4,5};
+        int[] brr={1,1,2,3,4};
         int n=arr.length;
         int m =brr.length;
         unionOfArrays(arr, brr, n, m);
