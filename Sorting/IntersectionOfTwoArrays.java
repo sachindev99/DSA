@@ -5,7 +5,7 @@ package Sorting;
 public class IntersectionOfTwoArrays {
     public static void main(String[] args) {
        int  arr[]={1,2,3,3,3};
-       int brr[] ={2,1,1,1,3,5,7};
+       int brr[] ={2,1,13,1,3,5,7};
        intersectionFun(arr, brr);
     }
 
