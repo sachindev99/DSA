@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CloserToSort",
+            "request": "launch",
+            "mainClass": "Sorting.CloserToSort",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch FindTripletsWithZeroSum",
             "request": "launch",
             "mainClass": "Sorting.FindTripletsWithZeroSum",
