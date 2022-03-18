@@ -9,15 +9,11 @@ public class FloorSqrt {
     public static int findFloorSqrt(int n)
     {
         int i=1;
-        int count=1;
-        while(i<=n)
+        while(i*i<=n)
         {
-            i=i*i;
             i++;
-            count++;
         }
-
-        return count;
+        return i-1;
     }
     
 }
