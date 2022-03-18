@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FloorSqrt",
+            "request": "launch",
+            "mainClass": "Array.FloorSqrt",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch SmallestPositiveMissingNumber",
             "request": "launch",
             "mainClass": "Array.SmallestPositiveMissingNumber",

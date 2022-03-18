@@ -3,7 +3,7 @@ package Array;
 
 public class SmallestPositiveMissingNumber {
     public static void main(String[] args) {
-        int[] arr={0,-10,1,3,-20};
+        int[] arr={-10,1,1,2,2,3};
         int n=arr.length;
         System.out.println(missingNumber(arr, n));
     }
@@ -44,7 +44,4 @@ public class SmallestPositiveMissingNumber {
        
        return n+1;
     }
-
-
-    
 }
