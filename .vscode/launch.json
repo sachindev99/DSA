@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FloorsSqrtBetter",
+            "request": "launch",
+            "mainClass": "Array.FloorsSqrtBetter",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch FloorSqrt",
             "request": "launch",
             "mainClass": "Array.FloorSqrt",

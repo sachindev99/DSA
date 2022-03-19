@@ -14,6 +14,5 @@ public class FloorSqrt {
             i++;
         }
         return i-1;
-    }
-    
+    } 
 }
