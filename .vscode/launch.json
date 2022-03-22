@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Chaining",
+            "request": "launch",
+            "mainClass": "Hashing.Chaining",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch FloorsSqrtBetter",
             "request": "launch",
             "mainClass": "Array.FloorsSqrtBetter",
