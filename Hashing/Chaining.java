@@ -12,11 +12,6 @@ public class Chaining {
         System.out.println(mh.search(10));
         mh.delete(10);
         System.out.println(mh.search(10));
-
-        for (int i = 0; i < 7; i++) {
-            System.out.print(mh);
-            
-        }
     }
     
 }
@@ -34,7 +29,6 @@ class MyHash
             
         }
     }
-
 
     void insert(Integer k)
     {
