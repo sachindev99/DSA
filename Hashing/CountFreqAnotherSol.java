@@ -21,7 +21,7 @@ public class CountFreqAnotherSol {
                     break;
                 }
             }
-            //if seen, ignore
+            //if seen, ignore rest of the code and move to next element
             if(isVisited==true)
             {
                 continue;
@@ -33,7 +33,7 @@ public class CountFreqAnotherSol {
                 if(arr[i]==arr[j])
                 count++;
             }
-            System.out.println(count);
+            System.out.println(arr[i]+" "+count);
         }
         
     
