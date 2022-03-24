@@ -27,10 +27,9 @@ public class CountFreq {
                 count=1;
             }
         }
-        if(arr[n-1]!=arr[n-2])
-        {
-            System.out.println(count);
-        }
+        //to print the count of the last element
+        System.out.println(count);
+    
     }
     
 }
