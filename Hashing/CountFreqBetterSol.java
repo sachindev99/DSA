@@ -15,12 +15,10 @@ public class CountFreqBetterSol {
         HashMap<Integer,Integer> hm = new HashMap<>();
         //use the default value if no value is mapped with the specified key
         //we added 1 because we have to increment the count
-        
         for(int i:arr)
         {
             hm.put(i, hm.getOrDefault(i,0)+1);
         }
-        System.out.println(hm.get(50));
 
         for(Map.Entry<Integer,Integer> e: hm.entrySet())
         {

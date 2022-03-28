@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "Array.RemoveDuplicates",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch Anangram",
+            "request": "launch",
+            "mainClass": "Hashing.Anangram",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountDistincElinTwoArraysBetterSol",
+            "request": "launch",
+            "mainClass": "Hashing.CountDistincElinTwoArraysBetterSol",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountDistintElinTwoArrays",
+            "request": "launch",
+            "mainClass": "Hashing.CountDistintElinTwoArrays",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch CountFreqBetterSol",
             "request": "launch",
             "mainClass": "Hashing.CountFreqBetterSol",
