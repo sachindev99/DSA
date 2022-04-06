@@ -4,8 +4,8 @@ import java.util.HashSet;
 
 public class CountDistincElinTwoArraysBetterSol {
     public static void main(String[] args) {
-        int[] a={15, 17, 27, 27, 28, 15};
-        int[] b={16, 17, 28, 17, 31, 17};
+        int[] a={10,20,10,30};
+        int[] b={20,10,10,40};
         int n=a.length;
         int m=b.length;
         findFreq(a, b, n, m);
@@ -13,6 +13,7 @@ public class CountDistincElinTwoArraysBetterSol {
 
     private static void findFreq(int[] a, int[] b, int n, int m) {
         HashSet<Integer> hs= new HashSet<>();
+        int count=0;
 
         for(int i=0;i<n;i++)
         {
@@ -21,25 +22,37 @@ public class CountDistincElinTwoArraysBetterSol {
 
         for(int i=0;i<m;i++)
         {
-            hs.add(b[i]);
+            if(hs.contains(b[i]))
+            {
+                count++;
+                hs.remove(b[i]);
+            }
+          
         }
 
-        System.out.println((n+m)-hs.size());
-        char ch='v';
-        String st="geeks";
-
-        if(ch>='a'&&ch<='z')
+        if(count>1)
         {
-            System.out.println("lower case");
+            System.out.println(count);
         }
 
-        else
-        {
-            System.out.println("Upper case");
-        }
+     
 
-        System.out.println(st.toUpperCase());
-        //System.out.println("geeks");
+        // System.out.println((n+m)-hs.size());
+        // char ch='v';
+        // String st="geeks";
+
+        // if(ch>='a'&&ch<='z')
+        // {
+        //     System.out.println("lower case");
+        // }
+
+        // else
+        // {
+        //     System.out.println("Upper case");
+        // }
+
+        // System.out.println(st.toUpperCase());
+        // //System.out.println("geeks");
 
     }
 }
