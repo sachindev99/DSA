@@ -38,8 +38,6 @@ public class LongestCommomnSubarray {
                 hs.put(prefix,i);
             }
 
-            
-
         }
         return res;
     }

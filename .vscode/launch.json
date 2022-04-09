@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ElementsAppearMoreThanNByKBetter",
+            "request": "launch",
+            "mainClass": "Hashing.ElementsAppearMoreThanNByKBetter",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch ElementAppearsMoreThanNbyK",
+            "request": "launch",
+            "mainClass": "Hashing.ElementAppearsMoreThanNbyK",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch LongestCommomnSubarray",
             "request": "launch",
             "mainClass": "Hashing.LongestCommomnSubarray",
