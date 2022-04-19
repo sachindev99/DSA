@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Frequecy",
+            "request": "launch",
+            "mainClass": "String.Frequecy",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch Intro",
+            "request": "launch",
+            "mainClass": "String.Intro",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch ElementsAppearMoreThanNByKBetter",
             "request": "launch",
             "mainClass": "Hashing.ElementsAppearMoreThanNByKBetter",
