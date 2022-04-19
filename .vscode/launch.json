@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PalindromeEff",
+            "request": "launch",
+            "mainClass": "String.PalindromeEff",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "String.Palindrome",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch Frequecy",
             "request": "launch",
             "mainClass": "String.Frequecy",
