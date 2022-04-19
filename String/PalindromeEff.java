@@ -2,7 +2,7 @@ package String;
 
 public class PalindromeEff {
     public static void main(String[] args) {
-        String str="geeks";
+        String str="abccba";
         System.out.println(isPlaindrome(str));
     }
 

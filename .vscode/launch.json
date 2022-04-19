@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Anagram",
+            "request": "launch",
+            "mainClass": "String.Anagram",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubSequenceRec",
+            "request": "launch",
+            "mainClass": "String.SubSequenceRec",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubSequence",
+            "request": "launch",
+            "mainClass": "String.SubSequence",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch PalindromeEff",
             "request": "launch",
             "mainClass": "String.PalindromeEff",
