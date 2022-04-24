@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseAString",
+            "request": "launch",
+            "mainClass": "String.ReverseAString",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch LeftMostRepeatingChar",
+            "request": "launch",
+            "mainClass": "String.LeftMostRepeatingChar",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch Anagram",
             "request": "launch",
             "mainClass": "String.Anagram",
