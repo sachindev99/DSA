@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AnagramSearch",
+            "request": "launch",
+            "mainClass": "String.AnagramSearch",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseAString",
             "request": "launch",
             "mainClass": "String.ReverseAString",
