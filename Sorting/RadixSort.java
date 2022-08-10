@@ -32,7 +32,7 @@ public class RadixSort {
 
     static void radixSort(int[]arr,int n,int maxLoopCount)
     {
-        int[] temp=new int[10];
+       // int[] temp=new int[10];
         
 
 

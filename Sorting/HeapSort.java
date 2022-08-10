@@ -2,7 +2,7 @@ package Sorting;
 
 public class HeapSort {
     public static void main(String[] args) {
-        int[]arr={30,10,20,50,11};
+       // int[]arr={30,10,20,50,11};
         
     }
 }

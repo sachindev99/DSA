@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FindKthElement",
+            "request": "launch",
+            "mainClass": "LinkedList.FindKthElement",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMiddle",
+            "request": "launch",
+            "mainClass": "LinkedList.FindMiddle",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeleteNode",
+            "request": "launch",
+            "mainClass": "LinkedList.DeleteNode",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertNode",
+            "request": "launch",
+            "mainClass": "LinkedList.InsertNode",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch squareRoot",
+            "request": "launch",
+            "mainClass": "BinarySearch.squareRoot",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch searchInInfiniteSortedArray",
+            "request": "launch",
+            "mainClass": "BinarySearch.searchInInfiniteSortedArray",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch RabinKarp",
+            "request": "launch",
+            "mainClass": "String.RabinKarp",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch AnagramSearch",
             "request": "launch",
             "mainClass": "String.AnagramSearch",
