@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ImplementQueueUsingLL",
+            "request": "launch",
+            "mainClass": "Queue.ImplementQueueUsingLL",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackWithGetMin",
+            "request": "launch",
+            "mainClass": "Stack.StackWithGetMin",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestRectangleWithAll1s",
+            "request": "launch",
+            "mainClass": "Stack.LargestRectangleWithAll1s",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxAreaInHistogram",
+            "request": "launch",
+            "mainClass": "Stack.MaxAreaInHistogram",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoStack",
+            "request": "launch",
+            "mainClass": "Stack.TwoStack",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseALinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.ReverseALinkedList",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "LinkedList.BubbleSort",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch FindKthElement",
             "request": "launch",
             "mainClass": "LinkedList.FindKthElement",
