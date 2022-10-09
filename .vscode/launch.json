@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ImplementStackUsingQueue",
+            "request": "launch",
+            "mainClass": "Queue.ImplementStackUsingQueue",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyQueue",
+            "request": "launch",
+            "mainClass": "Queue.MyQueue",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImplementQueueUsingStack",
+            "request": "launch",
+            "mainClass": "Queue.ImplementQueueUsingStack",
+            "projectName": "ProjectTest_bbbd1173"
+        },
+        {
+            "type": "java",
             "name": "Launch ImplementQueueUsingLL",
             "request": "launch",
             "mainClass": "Queue.ImplementQueueUsingLL",
